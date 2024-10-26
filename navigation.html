@@ -1,0 +1,5 @@
+<div class="navbar">
+    {% for page in pages %}
+        <button onclick="window.location.href='?page={{ page }}'">{{ page }}</button>
+    {% endfor %}
+</div>

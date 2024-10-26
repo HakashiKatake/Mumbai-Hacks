@@ -1,0 +1,36 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+.user-message, .bot-message {
+    margin: 10px 0; 
+    padding: 10px; 
+    border-radius: 8px;
+}
+.user-message { 
+    background-color: #4caf50; 
+    color: black; 
+}
+.bot-message { 
+    background-color: #6c63ff; 
+    color: white; 
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #333; 
+    padding: 10px;
+}
+
+.navbar button {
+    color: white; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    text-decoration: underline;
+}
